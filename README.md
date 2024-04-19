@@ -247,4 +247,4 @@ JOIN
   ) AS order_summary ON order_summary.id_orders = account.id_orders;
  
 工夫をしたのはこのクエリです。注文メニューの合計を求めるサブクエリを作って、それをaccount（会計）テーブルにJOINしています。まずは、領収書を発行するのに必要な最小限のデータを、上記クエリで作ってみました。
-
+https://github.com/dianess/sql-challenge.git
